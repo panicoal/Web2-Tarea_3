@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- CSS Custom -->
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- CSS Bootstrap 5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<body>
+    <!-- Grid -->
+    <div class="container container-grid">
+        <div class="caja-g uno">caja-grid_01</div>
+        <div class="caja-g dos">caja-grid_02</div>
+        <div class="caja-g tres">caja-grid_03</div>
+        <div class="caja-g cuatro">caja-grid_04</div>
+        <div class="caja-g cinco">caja-grid_05</div>
+        <div class="caja-g seis">caja-grid_06</div>
+        <div class="caja-g siete">caja-grid_07</div>
+        <div class="caja-g ocho">caja-grid_08</div>
+        <div class="caja-g nueve">caja-grid_09</div>
+    </div>
+    <!-- Flex -->
+    <div class="container container-flex">
+        <div class="fila cero">
+            <div class="columna uno">caja-flex_01</div>
+            <div class="columna dos">
+                <div class="fila-int uno">Columna 2 - Fila 1</div>
+                <div class="fila-int">
+                    <div class="columna-int">Columna 2 - Fila 2 - Columna 1</div>
+                    <div class="columna-int">Columna 2 - Fila 2 - Columna 2</div>
+                </div>
+            </div>
+            <div class="columna tres">caja-flex_02</div>
+        </div>
+    </div>
+    <!-- Bootstrap -->
+    <div class="container mt-4 p-4 bg-bootstrap">
+        <div class="input-group mb-3 ">
+            <span class="input-group-text">Nombre</span>
+            <input type="text" class="form-control" placeholder="Ingrese su nombre" aria-label="name">
+            <span class="input-group-text">Correo</span>
+            <input type="email" class="form-control" placeholder="Ingrese su correo" aria-label="email">
+            <span class="input-group-text">Edad</span>
+            <input type="number" class="form-control" placeholder="Edad" aria-label="age">
+          </div>
+    </div>
+</body>
+</html>
